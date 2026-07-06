@@ -218,41 +218,38 @@ header{
    BUTTONS
 ========================================== */
 
-.hero-btn{
+
+.btn-group{
     display:flex;
     gap:20px;
-    margin-bottom:40px;
+    align-items:center;
 }
 
-.btn,
-.btn2{
-    padding:15px 35px;
-    border-radius:50px;
+.hire-btn{
+    background:linear-gradient(90deg,#00d2ff,#6c3cff);
+    color:#fff;
+    padding:10px 15px;
+    border-radius:40px;
     text-decoration:none;
+    font-size:18px;
     font-weight:600;
-    transition:.4s;
 }
 
-.btn{
-    background:linear-gradient(90deg,#00e5ff,#7b2ff7);
-    color:white;
+.resume-btn{
+    padding: 10px 15px;
+    border:2px solid #00d2ff;
+    border-radius:40px;
+    text-decoration:none;
+    color:#00d2ff;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
 }
 
-.btn:hover{
-    transform:translateY(-5px);
-    box-shadow:0 10px 35px rgba(0,229,255,.35);
+.resume-btn:hover{
+    background:#00d2ff;
+    color:#fff;
 }
-
-.btn2{
-    border:2px solid #00e5ff;
-    color:white;
-}
-
-.btn2:hover{
-    background:#00e5ff;
-    color:#050816;
-}
-
 /* ==========================================
    SOCIAL ICONS
 ========================================== */
